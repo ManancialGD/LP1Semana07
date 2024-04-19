@@ -16,6 +16,9 @@ namespace GameUnits
             Console.WriteLine("Settler Cost: " + settler.Cost);
             Console.WriteLine("Soldier Health: " + soldier.Health);
             Console.WriteLine("Soldier Cost: " + soldier.Cost);
+            
+            Console.WriteLine(settler.ToString());
+            Console.WriteLine(soldier.ToString());
         }
     }
 }
