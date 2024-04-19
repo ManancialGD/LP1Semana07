@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniGame", "MiniGame\MiniGame.csproj", "{FEAB815A-BC75-4F34-9C3F-BAB16E23DDAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +12,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEAB815A-BC75-4F34-9C3F-BAB16E23DDAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEAB815A-BC75-4F34-9C3F-BAB16E23DDAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEAB815A-BC75-4F34-9C3F-BAB16E23DDAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEAB815A-BC75-4F34-9C3F-BAB16E23DDAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
